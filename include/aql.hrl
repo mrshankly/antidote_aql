@@ -26,6 +26,9 @@
 -define(CRDT_BCOUNTER_INT, antidote_crdt_counter_b).
 -define(CRDT_COUNTER_INT, antidote_crdt_counter_pn).
 
+-define(CRDT_SECURE_BCOUNTER_INT, antidote_crdt_secure_counter_b).
+-define(CRDT_SECURE_COUNTER_INT, antidote_crdt_secure_counter_pn).
+
 % types
 -export_type([input/0, queries/0, queryResult/0]).
 
